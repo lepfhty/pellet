@@ -8,4 +8,18 @@
   </parent>
   <artifactId>pellet-el</artifactId>
   <name>Pellet EL</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-core</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
+	<repositories>
+		<repository>
+			<id>local-repository</id>
+			<name>Local repository in project tree</name>
+			<url>file:${project.basedir}/../dependencies/src/repository</url>
+		</repository>
+	</repositories>
 </project>

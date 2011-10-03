@@ -17,6 +17,7 @@
 
 	<modules>
 		<module>dependencies</module>
+		<module>pellet-common</module>
 		<module>pellet-core</module>
 		<module>pellet-datatypes</module>
 		<module>pellet-el</module>
