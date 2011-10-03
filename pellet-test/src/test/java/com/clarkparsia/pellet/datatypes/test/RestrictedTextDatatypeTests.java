@@ -33,7 +33,7 @@ import com.clarkparsia.pellet.datatypes.types.text.RestrictedTextDatatype;
  * Company: Clark & Parsia, LLC. <http://www.clarkparsia.com>
  * </p>
  * 
- * @author HŽctor PŽrez-Urbina
+ * @author Hector Perez-Urbina
  */
 public class RestrictedTextDatatypeTests {
 	private DatatypeReasoner reasoner = new DatatypeReasonerImpl();
