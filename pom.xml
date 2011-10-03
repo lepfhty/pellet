@@ -27,7 +27,6 @@
 		<module>pellet-owlapiv3</module>
 		<module>pellet-explanation</module>
 		<module>pellet-owlapi</module>
-		<module>pellet-dig</module>
 		<module>pellet-modularity</module>
 		<module>pellet-pellint</module>
 		<module>pellet-cli</module>
