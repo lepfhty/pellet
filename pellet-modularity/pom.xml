@@ -8,4 +8,16 @@
   </parent>
   <artifactId>pellet-modularity</artifactId>
   <name>Pellet Modularity</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapi</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapiv3</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
 </project>

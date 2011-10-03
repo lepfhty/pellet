@@ -49,7 +49,6 @@ public class Pellet {
 		COMMANDS.put( "trans-tree", new PelletTransTree() );
 		COMMANDS.put( "extract", new PelletExtractInferences() );
 		COMMANDS.put( "lint", new Pellint() );
-		COMMANDS.put( "dig", new PelletDIG() );		
 		COMMANDS.put("info", new PelletInfo());
 		COMMANDS.put( "entail", new PelletEntailment() );	
 	}

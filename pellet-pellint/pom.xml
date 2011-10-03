@@ -8,4 +8,21 @@
   </parent>
   <artifactId>pellet-pellint</artifactId>
   <name>Pellet Pellint</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-jena</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapiv3</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapi</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
 </project>

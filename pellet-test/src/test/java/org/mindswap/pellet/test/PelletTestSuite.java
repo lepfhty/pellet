@@ -39,7 +39,6 @@ public class PelletTestSuite extends TestSuite {
 
 		suite.addTest( ATermTests.suite() );
 		suite.addTest( PellintTestSuite.suite() );
-		suite.addTest( DIGTestSuite.suite() );
 		suite.addTest( TracingTests.suite() );
 		suite.addTest( MiscTests.suite() );
 		suite.addTest( MergeTests.suite() );
