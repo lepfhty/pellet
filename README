@@ -1,2 +1,5 @@
 This is a repository setup to enable easy access to the open source code behind the pellet library, as currently it is only released through an HTTP Referrer blocked web form inside a zip file, inside separate source jar files.
 
+The download/registration form that the code was derived from is at:
+
+http://clarkparsia.com/pellet/download/pellet-2.3.0
