@@ -8,4 +8,20 @@
   </parent>
   <artifactId>pellet-core</artifactId>
   <name>Pellet Core Functions</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.sf.aterm</groupId>
+  		<artifactId>aterm-java</artifactId>
+  		<version>1.6</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
+	<repositories>
+		<repository>
+			<id>local-repository</id>
+			<name>Local repository in project tree</name>
+			<url>file:${project.basedir}/../dependencies/src/repository</url>
+		</repository>
+	</repositories>
 </project>

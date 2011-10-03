@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.clarkparsia</groupId>
-  <artifactId>pellet</artifactId>
-  <version>2.3.0</version>
-  <packaging>pom</packaging>
-  <name>Pellet parent pom</name>
-  <url>https://github.com/ansell/pellet</url>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.clarkparsia</groupId>
+	<artifactId>pellet</artifactId>
+	<version>2.3.0</version>
+	<packaging>pom</packaging>
+	<name>Pellet parent pom</name>
+	<url>https://github.com/ansell/pellet</url>
 	<licenses>
 		<license>
 			<name>GNU Affero General Public License 3.0</name>
@@ -13,11 +14,12 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-  
+
 	<modules>
+		<module>dependencies</module>
 		<module>pellet-core</module>
-		<module>pellet-el</module>
 		<module>pellet-datatypes</module>
+		<module>pellet-el</module>
 		<module>pellet-explanation</module>
 		<module>pellet-owlapi</module>
 		<module>pellet-owlapiv3</module>
@@ -33,11 +35,9 @@
 
 	<properties>
 		<junit.version>4.10</junit.version>
+		<slf4j.version>1.6.2</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<sesame.version>2.5.1</sesame.version>
-		<sesametools.version>1.5</sesametools.version>
-		<slf4j.version>1.6.2</slf4j.version>
 	</properties>
 	<build>
 		<plugins>
@@ -50,5 +50,14 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.3.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 </project>
