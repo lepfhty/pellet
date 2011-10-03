@@ -45,7 +45,6 @@ import java.util.logging.Logger;
 
 import org.mindswap.pellet.KnowledgeBase;
 import org.mindswap.pellet.utils.ATermUtils;
-import org.semanticweb.owl.inference.OWLReasonerException;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLClass;
@@ -585,7 +584,7 @@ public class Reasoner implements OWLOntologyChangeListener {
 		return toOWLEntitySetOfSet( kb.getTypes( loader.term( ind ), direct ), CLASS_MAPPER );
 	}
 
-	public Set<OWLClass> getUnsatisfiableClasses() throws OWLReasonerException {
+	public Set<OWLClass> getUnsatisfiableClasses() {
 		return toOWLEntitySet( kb.getUnsatisfiableClasses(), CLASS_MAPPER );
 	}
 
@@ -761,7 +760,7 @@ public class Reasoner implements OWLOntologyChangeListener {
 		return kb.isIrreflexiveProperty( loader.term( p ) );
 	}
 
-	public boolean isRealised() throws OWLReasonerException {
+	public boolean isRealised() {
 		return kb.isRealized();
 	}
 

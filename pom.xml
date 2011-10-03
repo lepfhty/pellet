@@ -21,16 +21,16 @@
 		<module>pellet-core</module>
 		<module>pellet-datatypes</module>
 		<module>pellet-el</module>
+		<module>pellet-rules</module>
+		<module>pellet-jena</module>
+		<module>pellet-query</module>
+		<module>pellet-owlapiv3</module>
 		<module>pellet-explanation</module>
 		<module>pellet-owlapi</module>
-		<module>pellet-owlapiv3</module>
-		<module>pellet-rules</module>
-		<module>pellet-cli</module>
 		<module>pellet-dig</module>
-		<module>pellet-jena</module>
 		<module>pellet-modularity</module>
 		<module>pellet-pellint</module>
-		<module>pellet-query</module>
+		<module>pellet-cli</module>
 		<module>pellet-test</module>
 	</modules>
 

@@ -8,12 +8,17 @@
     <relativePath>..</relativePath>
   </parent>
   <artifactId>dependencies</artifactId>
-
+  <name>Pellet Dependencies that are not available in Maven repositories</name>
   <dependencies>
     <dependency>
       <groupId>net.sf.aterm</groupId>
       <artifactId>aterm-java</artifactId>
       <version>1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.owlapi</groupId>
+      <artifactId>owlapi</artifactId>
+      <version>3.2.4</version>
     </dependency>
   </dependencies>
   <repositories>
