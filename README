@@ -6,7 +6,7 @@ The download/registration form that the code was derived from is at:
 http://clarkparsia.com/pellet/download/pellet-2.3.0
 
 
-This source code is only available under the AGPL-3.0:
+This source code is only available here under the AGPL-3.0, as Clark & Parsia retain the copyright to the code so the license cannot be changed here:
 
 http://www.fsf.org/licensing/licenses/agpl-3.0.html
 
@@ -15,3 +15,9 @@ If you want a commercial license you need to contact Clark & Parsia directly:
 
 http://clarkparsia.com/pellet/dual-license
 
+
+This code dump does not contain the deprecated Pellet DIG interface, or any of the tests or CLI commands that relate to it.
+
+The test files that are required as resources for the pellet-test module are unavailable, so the relevant tests will fail until they are made available, and under an open source license.
+
+The original build files were not made available for the source files in pellet-2.3.0, even though they are required to be supplied along with the source code per the AGPL, so Maven replacements have been created to fit. The original build files may have been Ant driven if nothing has changed since they stopped using public source control.
