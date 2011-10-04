@@ -1,6 +1,3 @@
-This is a repository setup to enable easy access to the open source code behind the pellet library, as currently it is only released through an HTTP Referrer blocked web form inside a zip file, inside separate source jar files.
-
-
 The download/registration form that the code was derived from is at:
 
 http://clarkparsia.com/pellet/download/pellet-2.3.0
@@ -16,8 +13,8 @@ If you want a commercial license you need to contact Clark & Parsia directly:
 http://clarkparsia.com/pellet/dual-license
 
 
-This code dump does not contain the deprecated Pellet DIG interface, or any of the tests or CLI commands that relate to it.
+The deprecated Pellet DIG interface, any of the tests and CLI commands that relate to it have been removed.
 
-The test files that are required as resources for the pellet-test module are unavailable, so the relevant tests will fail until they are made available, and under an open source license.
+The test files that are required as resources for the pellet-test module are unavailable, so the relevant tests will fail until they are made available.
 
-The original build files were not made available for the source files in pellet-2.3.0, even though they are required to be supplied along with the source code per the AGPL, so Maven replacements have been created to fit. The original build files may have been Ant driven if nothing has changed since they stopped using public source control.
+
