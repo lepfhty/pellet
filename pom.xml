@@ -30,8 +30,8 @@
 		<module>pellet-modularity</module>
 		<module>pellet-pellint</module>
 		<module>pellet-cli</module>
-		<module>pellet-test</module>
 		<module>pellet-examples</module>
+		<module>pellet-test</module>
 	</modules>
 
 	<properties>
