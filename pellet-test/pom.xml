@@ -8,4 +8,37 @@
   </parent>
   <artifactId>pellet-test</artifactId>
   <name>Pellet Test</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-pellint</artifactId>
+  		<version>2.3.0</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.10</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapiv3</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-modularity</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-explanation</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-cli</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
 </project>

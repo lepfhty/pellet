@@ -8,4 +8,28 @@
   </parent>
   <artifactId>pellet-owlapi</artifactId>
   <name>Pellet OWLAPI</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.sf.owlapi</groupId>
+  		<artifactId>owlapi2</artifactId>
+  		<version>2.2.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-core</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-query</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
+	<repositories>
+		<repository>
+			<id>local-repository</id>
+			<name>Local repository in project tree</name>
+			<url>file:${project.basedir}/../dependencies/src/repository</url>
+		</repository>
+	</repositories>
 </project>

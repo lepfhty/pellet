@@ -47,7 +47,7 @@ public class XSD {
 																	.dataType( XSDVocabulary.NEGATIVE_INTEGER
 																			.getURI() );
 	public static final OWLDataType	NON_POSITIVE_INTEGER	= OWL
-																	.dataType( XSDVocabulary.NON_POSITIVE_INTEGER
+																	.dataType( XSDVocabulary.NON_POSIITIVE_INTEGER
 																			.getURI() );
 	public static final OWLDataType	NON_NEGATIVE_INTEGER	= OWL
 																	.dataType( XSDVocabulary.NON_NEGATIVE_INTEGER
