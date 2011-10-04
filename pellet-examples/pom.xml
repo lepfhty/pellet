@@ -9,4 +9,26 @@
   <artifactId>pellet-examples</artifactId>
   <name>Pellet Examples</name>
   <description>Examples of Pellet Usage</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-jena</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-owlapiv3</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-modularity</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.clarkparsia</groupId>
+  		<artifactId>pellet-explanation</artifactId>
+  		<version>2.3.0</version>
+  	</dependency>
+  </dependencies>
 </project>
