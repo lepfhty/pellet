@@ -31,7 +31,7 @@
 		<module>pellet-pellint</module>
 		<module>pellet-cli</module>
 		<module>pellet-examples</module>
-		<module>pellet-test</module>
+		<!-- <module>pellet-test</module> Ignoring until the test files are provided -->
 	</modules>
 
 	<properties>
