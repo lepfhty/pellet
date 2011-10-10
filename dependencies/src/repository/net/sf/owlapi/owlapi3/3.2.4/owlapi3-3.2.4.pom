@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>owlapi</groupId>
-  <artifactId>owlapi</artifactId>
+  <groupId>net.sf.owlapi</groupId>
+  <artifactId>owlapi3</artifactId>
   <packaging>jar</packaging>
   <name>OWLAPI</name>
   <version>3.2.4</version>
