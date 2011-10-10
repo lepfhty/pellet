@@ -11,7 +11,7 @@
   <dependencies>
   	<dependency>
   		<groupId>net.sf.owlapi</groupId>
-  		<artifactId>owlapi</artifactId>
+  		<artifactId>owlapi3</artifactId>
   		<version>3.2.4</version>
   	</dependency>
   	<dependency>
