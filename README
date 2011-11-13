@@ -18,3 +18,6 @@ The deprecated Pellet DIG interface, any of the tests and CLI commands that rela
 The test files that are required as resources for the pellet-test module are unavailable, so the relevant tests will fail until they are made available.
 
 
+If the pellet-query module fails to install due to an Out of Memory Exception, run maven using:
+    
+    MAVEN_OPTS="-Xmx1024m" mvn clean install
